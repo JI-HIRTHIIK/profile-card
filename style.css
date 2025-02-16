@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 24px;
+    padding: 25px;
+    padding-top: 80px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position:relative;
+  }
+  
+  .image {
+      position: relative;
+      height: 150px;
+      width: 150px;
+      border-radius: 30%;
+      background-color:darkgreen;
+      padding: 3px;
+      margin-bottom: 10px;
+    }
+  
+  .image .profile-img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 30%;
+      border: 3px solid #fff;
+    }
+    
+  .profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #090909;
+  }
+  
+  .text-data .name {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .text-data .job {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .row span{
+      color: rgb(9, 9, 9);
+      font-size:medium;
+  }
+  
+  .row .info{
+      text-align: center;
+      padding: 0 50px;
+  }
+  h4{
+      padding-top: 50px;
+  }
+  hr{position:absolute;
+      border: 2px;
+      background: #090909;
+      color: aliceblue;
+      width: 50%;
+  }
